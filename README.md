@@ -72,11 +72,6 @@ The examples are grouped by module so you can quickly pick a sketch for LEDs, so
 
 This repository is released under the MIT License. See [`LICENSE`](./LICENSE).
 
-### Author note
-
-All code in this repository is my own.
-
----
 
 ## 中文
 
@@ -148,6 +143,3 @@ All code in this repository is my own.
 
 本仓库使用 MIT 协议，详见 [`LICENSE`](./LICENSE)。
 
-### 作者说明
-
-本仓库全部代码由本人编写。
