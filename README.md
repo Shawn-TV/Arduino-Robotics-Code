@@ -143,3 +143,12 @@ This repository is released under the MIT License. See [`LICENSE`](./LICENSE).
 
 本仓库使用 MIT 协议，详见 [`LICENSE`](./LICENSE)。
 
+
+### Local files not yet in repository (mapped to current naming)
+- `arduino_ultrasonic_avoidance_car.ino` -> `locomotion/ultrasonic-obstacle-avoidance.ino`
+- `arduino_servo_fixed_angle.ino` -> `actuators/servo-fixed-angle.ino`
+- `arduino_motor_direction_cycle.ino` -> `locomotion/motor-direction-cycle.ino`
+- `arduino_car_basic_drive_forward_pwm.ino` -> `locomotion/straight-drive-forward-pwm.ino`
+- `arduino_serial_api_cheatsheet.txt` -> `serial/serial-api-cheatsheet.txt`
+- `arduino_ultrasonic_robot_example_full.txt` -> `locomotion/ultrasonic-robot-example-full.txt`
+- `arduino_ultrasonic_robot_example_notes.txt` -> `locomotion/ultrasonic-robot-example-notes.txt`

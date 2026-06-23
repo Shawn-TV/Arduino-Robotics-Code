@@ -1,0 +1,6 @@
+Serial.begin();//开启串口
+Serial.end();//关闭串口
+Serial.avaiable();//判断串口缓冲器是否有数据装入
+Serial.read();//读取串口数据
+Serial.print();//写入字符串数据串口
+Serial.printIn();//写入字符串数据+换行到串口
