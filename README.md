@@ -2,9 +2,9 @@
 
 ## English
 
-This repository is a collection of my personal Arduino robotics programs.
+This repository is a collection of code I wrote with Arduino for microcontroller experiments.
 
-The project files are grouped by hardware role so each sketch can be reused for education demos, sensor experiments, and mechanism control.
+The project files are grouped by module so each sketch can be reused for demos, sensor experiments, and actuator control.
 
 ### How to use
 
@@ -80,7 +80,7 @@ All code in this repository is my own and intended for learning, prototyping, an
 
 ## 中文
 
-本仓库是我个人整理的 Arduino 机器人代码合集，按模块分类，方便快速复用到课程演示、传感器实验和机构驱动场景。
+这是我编写的 Arduino 单片机代码合集，按模块分类，方便快速复用到课程演示、传感器实验和执行器控制场景。
 
 ### 使用方法
 
