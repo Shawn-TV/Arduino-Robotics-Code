@@ -54,23 +54,11 @@ This sketch controls three outputs on pins 10, 9, and 8. It turns on pin 10 for 
 
 Use this as a very simple fixed timing sequence for LEDs or relay-style outputs.
 
-### `actuators/led-timed-sequence-b.ino`
-
-This is another copy of the same three-output timing sequence using pins 10, 9, and 8.
-
-It is useful if you want a second version to edit without touching the first timing example.
-
 ### `actuators/pwm-fade-light.ino`
 
 This sketch uses pin 11 as a PWM output. Pin 2 increases the brightness value by 5, and pin 3 decreases it by 5. The value is limited between 0 and 255.
 
 Use this for LED brightness control, motor speed testing, or learning how `analogWrite()` changes an output gradually.
-
-### `actuators/rgb-dual-strip-pattern-a.ino`
-
-This sketch controls two groups of RGB outputs. The first group uses pins 3, 4, and 6, and the second group uses pins 9, 10, and 11.
-
-It cycles through several color combinations with one-second delays. Use it to test RGB LEDs or two RGB light modules.
 
 ### `actuators/rgb-dual-strip-pattern-b.ino`
 
@@ -161,12 +149,6 @@ Use this for a simple obstacle-avoidance robot with an ultrasonic sensor and a t
 This is a notes file for the ultrasonic robot example. It lists the pins, the distance formula, and basic safety notes.
 
 It is not an Arduino sketch to upload.
-
-### `locomotion/ultrasonic-robot-example-notes.txt`
-
-This is a shorter setup note for the ultrasonic robot. It lists the basic steps for connecting Trig, Echo, and the motor driver.
-
-It is also only a notes file.
 
 ### `sensors/edge-trigger-led-blink.ino`
 
@@ -268,23 +250,11 @@ This repository uses the MIT License. See [`LICENSE`](./LICENSE).
 
 适合做固定时间的三灯顺序演示，也可以改成继电器/输出模块的时序测试。
 
-### `actuators/led-timed-sequence-b.ino`
-
-这是同样三灯时序的另一份版本，也是用 10、9、8 三个脚。
-
-适合保留一个原始版本，然后在这一份里改延时或顺序。
-
 ### `actuators/pwm-fade-light.ino`
 
 这个程序用 11 号脚做 PWM 输出。2 号脚让亮度值每次加 5，3 号脚让亮度值每次减 5。数值限制在 0 到 255。
 
 可以用来练习 LED 调光、电机速度测试，或者理解 `analogWrite()`。
-
-### `actuators/rgb-dual-strip-pattern-a.ino`
-
-这个程序控制两组 RGB 输出。第一组用 3、4、6 号脚，第二组用 9、10、11 号脚。
-
-程序会每秒切换一组颜色组合。适合测试 RGB LED 或两组 RGB 灯。
 
 ### `actuators/rgb-dual-strip-pattern-b.ino`
 
@@ -375,12 +345,6 @@ This repository uses the MIT License. See [`LICENSE`](./LICENSE).
 这是超声波小车的说明笔记，里面写了引脚、距离公式和安全注意事项。
 
 它不是要上传的 Arduino 程序。
-
-### `locomotion/ultrasonic-robot-example-notes.txt`
-
-这是更短的超声波接线和使用笔记。
-
-它也是说明文件，不是 sketch。
 
 ### `sensors/edge-trigger-led-blink.ino`
 

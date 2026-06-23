@@ -1,7 +1,0 @@
-Short ultrasonic setup notes
-
-1. Connect Trig to pin 2 and Echo to pin 3.
-2. Connect the two motor channels through a motor driver.
-3. Upload `ultrasonic-obstacle-avoidance.ino`.
-4. Open Serial Monitor only if you add serial prints; the current sketch runs without serial output.
-5. Change the distance threshold if the robot reacts too early or too late.
