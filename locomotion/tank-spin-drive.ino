@@ -3,17 +3,17 @@ const int INL1=4;
 const int INL2=5;
 const int E1=6;
 const int INR3=7;
-const int INR4=4;
+const int INR4=8;
 const int E2=9;
 void setup() {
   // put your setup code here, to run once:
 
-pinMode(INR3.OUTPUT);
-pinMode(INR4.OUTPUT);
-pinMode(INL1.OUTPUT);
-pinMode(INL2.OUTPUT);
-pinMode(E1.OUTPUT);
-pinMode(E2.OUTPUT);
+pinMode(INR3, OUTPUT);
+pinMode(INR4, OUTPUT);
+pinMode(INL1, OUTPUT);
+pinMode(INL2, OUTPUT);
+pinMode(E1, OUTPUT);
+pinMode(E2, OUTPUT);
 }
 
 void loop() {

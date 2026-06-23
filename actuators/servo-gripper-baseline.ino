@@ -8,5 +8,5 @@ myservo.attach(2);
 
 void loop() {
   // put your main code here, to run repeatedly:
-myservo.write(9 0);
+myservo.write(90);
 }

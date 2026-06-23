@@ -1,42 +1,23 @@
-#define Trig2//引脚tring 连接第二个 io口（板子上的口）
-#define  Echo//引脚tring 连接第三个个 io口（板子上的口）
-const int INL1=4；//马达
-const int INL2=5;
-const int E1=6;//E=高低电平
-const int INR3=7;
-const int INR4=8;
-const int E2=9;
-float cm;//距离变量
-float temp；//临时变量
-void setup() {
-  // put your setup code here, to run once:
-pinMode (Trig, OUTPUT);
-pinMode (Echo, INPUT;
-pinMode (INL1, OUTPUT);
-pinMode (INL2, OUTPUT);
-pinMode (INR3, OUTPUT);
-pinMode (INR4, OUTPUT);
-pinMode (E1, OUTPUT);
-pinMode (E2, OUTPUT);
-}
-void loop() {
-  // put your main code here, to run repeatedly:
-//给Trig发送一个低高低的短时间脉冲，触发测距
-digitalWrite(trig,LOW);//给trig发送一个低电平
-delayMicroseconds(2);//等待2微秒
-digitalWrite(trig,HIGH);//给trig发送一个高电平μmμmμmμmμmμmμmμmμmμmμmμm
-delayMicroseconds(10);//等待10微秒
-digitalWrite(trig,LOW);//给trig发送一个低电平
+Ultrasonic robot reference notes
 
-temp=float(pulseIn(Echo,HIGH));//存储回波等待时间，
-//pulseIn函数会等待引脚变为HIGH，开始计算时间，在等待变成LOW并停止计时
-//音速是:340m/s 换算成 34000cm、1000000μs →34/1000
-//因为发送到接收，实际是相同的距离走了两回，所以要除以2
-//距离（厘米）=（回波时间*（34/1000）/2
-//简化后的计算公式为（回波时间*17）/1000
-  cm=(temp*17)/1000;/把回波时间换算成cm
-  
-  
-  
-}
+Pins used by the sketch:
+- Trig: pin 2
+- Echo: pin 3
+- Left motor direction: pins 4 and 5
+- Left motor speed/PWM: pin 6
+- Right motor direction: pins 7 and 8
+- Right motor speed/PWM: pin 9
 
+Distance formula:
+- pulseIn(Echo, HIGH) returns the echo time in microseconds.
+- Speed of sound is about 340 m/s, or 0.034 cm/us.
+- The sound travels to the object and back, so divide by 2.
+- Simplified distance in centimeters: cm = echoTime * 17 / 1000.
+
+Behavior idea:
+- If the measured distance is below the threshold, stop or reverse, then turn.
+- If the measured distance is above the threshold, keep driving forward.
+
+Safety:
+- Test with wheels lifted first.
+- Use a motor driver; do not connect DC motors directly to Arduino pins.

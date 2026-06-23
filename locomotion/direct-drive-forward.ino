@@ -8,10 +8,10 @@ const int INR4=4;
 void setup() {
   // put your setup code here, to run once:
 
-pinMode(INR3.OUTPUT);
-pinMode(INR4.OUTPUT);
-pinMode(INL1.OUTPUT);
-pinMode(INL2.OUTPUT);
+pinMode(INR3, OUTPUT);
+pinMode(INR4, OUTPUT);
+pinMode(INL1, OUTPUT);
+pinMode(INL2, OUTPUT);
 
 }
 

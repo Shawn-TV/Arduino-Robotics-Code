@@ -9,13 +9,13 @@ const int DO=2;
 
 void setup() {
   // put your setup code here, to run once:
-pinMode(OUT3.OUTPUT);
-pinMode(OUT4.OUTPUT);
-pinMode(OUT1.OUTPUT);
-pinMode(OUT2.OUTPUT);
-pinMode(ENA.OUTPUT);
-pinMode(ENB.OUTPUT);
-pinMode(DO.INPUT);
+pinMode(OUT3, OUTPUT);
+pinMode(OUT4, OUTPUT);
+pinMode(OUT1, OUTPUT);
+pinMode(OUT2, OUTPUT);
+pinMode(ENA, OUTPUT);
+pinMode(ENB, OUTPUT);
+pinMode(DO, INPUT);
 }
 
 void loop() {

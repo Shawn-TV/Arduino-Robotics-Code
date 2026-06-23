@@ -10,7 +10,7 @@ void loop() {
 if(digitalRead(3)==HIGH)
 {digitalWrite(5,HIGH);
   delay(1);
-  digitalWrite(5,HIGH);}
+  digitalWrite(5,LOW);}
   else{
     digitalWrite(5,LOW);
     }

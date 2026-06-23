@@ -1,6 +1,6 @@
-Serial.begin();//开启串口
-Serial.end();//关闭串口
-Serial.avaiable();//判断串口缓冲器是否有数据装入
-Serial.read();//读取串口数据
-Serial.print();//写入字符串数据串口
-Serial.printIn();//写入字符串数据+换行到串口
+Serial.begin(9600);      // Start serial communication at 9600 baud.
+Serial.end();            // Stop serial communication.
+Serial.available();      // Return how many bytes are waiting to be read.
+Serial.read();           // Read one incoming byte.
+Serial.print(value);     // Print text or a value without a new line.
+Serial.println(value);   // Print text or a value, then move to a new line.
