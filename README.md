@@ -1,5 +1,7 @@
 # Arduino-Robotics-Code
 
+中文说明在后面：[点击跳到中文部分](#中文)。
+
 ## English
 
 This repository collects Arduino microcontroller code I wrote for small robotics experiments. Most files are short standalone sketches, organized by module: actuators, audio, locomotion, sensors, and serial communication.
